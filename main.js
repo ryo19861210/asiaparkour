@@ -2,13 +2,13 @@ $(function () {
   $("#header").vegas({
     slides: [
       {
-        src: "/img/kenji.webp",
+        src: "https://raw.githubusercontent.com/ryo19861210/asiaparkour/main/kenji.webp",
       },
       {
-        src: "/img/kenji2.jpeg",
+        src: "https://github.com/ryo19861210/asiaparkour/blob/main/kenji2.jpeg?raw=true",
       },
       {
-        src: "/img/kenji3.jpeg",
+        src: "https://github.com/ryo19861210/asiaparkour/blob/main/kenji3.jpeg?raw=true",
       },
     ],
     delay: 7000,
