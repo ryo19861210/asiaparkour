@@ -51,6 +51,10 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
+ 
+  @media screen and (max-width:768px) {
+    background-position: right center;
+  }
 }
 #header .filter {
   width: 100%;
