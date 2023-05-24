@@ -417,31 +417,37 @@ button:hover::after {
   margin-bottom: 30px;
   font-size: 22px;
   position: relative;
+  font-weight: bold;
 }
 #new .new_pk h1::after {
   content: "";
   background-color: #000000;
   height: 1px;
   width: 250px;
-  bottom: -10px;
+  bottom: -5px;
   left: 0;
   position: absolute;
 }
 @media screen and (max-width: 768px) {
   #new .new_pk h1 {
-    margin-bottom: 2.6041666667vw;
-    font-size: 3.6458333333vw;
+    margin-bottom: 5.2083333333vw;
+    font-size: 3.3854166667vw;
   }
 }
 #new .new_pk p {
   line-height: 1.8;
+}
+@media screen and (max-width: 768px) {
+  #new .new_pk p {
+    font-size: 2.6041666667vw;
+  }
 }
 #new .new_pk__title {
   margin-top: 50px;
 }
 @media screen and (max-width: 768px) {
   #new .new_pk__title {
-    margin-top: 6.5104166667vw;
+    margin-top: 13.0208333333vw;
   }
 }
 
@@ -533,10 +539,4 @@ button:hover::after {
   .openbtn5.active span:nth-of-type(2) {
     opacity: 0;
   }
-  .openbtn5.active span:nth-of-type(3) {
-    top: 30px;
-    left: 18px;
-    transform: translateY(-6px) rotate(45deg);
-    width: 30%;
-  }
-}/*# sourceMappingURL=style.css.map */
+  .openbtn5.active span:nth-of-type(3)
