@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>アジアパルクール協会 | Asia Parkour Association</title>
   <meta name="discription" content="「走る」「跳ぶ」「登る」などの移動動作で鍛えるパルクール競技協会">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.css" />
-
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -21,10 +21,12 @@
         <span></span><span>Menu</span><span></span>
       </div>
       <div class="header-inner">
-
+        <div class="header-inner__logo">
         <a href="#">
-          <p>HOME</p>
+          <img src="/img/apa_logo.PNG" alt="logo">
         </a>
+      </div>
+      <div class="header-inner__nav">
         <a href="#about">
           <p>私たちについて</p>
         </a>
@@ -37,6 +39,7 @@
         <a href="#new">
           <p>NEWパルクール</p>
         </a>
+      </div>
         <nav class="header__nav nav" id="js-nav">
           <ul class="nav__items nav-items">
             <li class="nav-items__item"><a href="#">HOME</a></li>
@@ -47,7 +50,7 @@
           </ul>
         </nav>
       </div>
-       <h1>
+      <h1>
         全てを越えて<br>世界へ羽ばたく
       </h1>
     </div>
@@ -68,7 +71,7 @@
 
         <div class="content">
           <div class="content__img">
-            <img src="https://raw.githubusercontent.com/ryo19861210/asiaparkour/main/about_pk.webp" alt="パルクール写真">
+            <img src="img/about_pk.webp" alt="パルクール写真">
           </div>
           <div class="content__text">
             <h1>アジアパルクール協会</h1>
@@ -81,8 +84,7 @@
               </div>
               <div class="content__text__p__right">
                 <p>2023年3月21日</p>
-                <a href="fanks.html" target="_blank">
-                  <p>fank.co.ltd</p>
+                  <p>fanks.co.ltd</p>
                 </a>
                 <p>山中 隆博</p>
                 <a href="https://sdentertainment.jp/" target="_blank">
@@ -142,7 +144,7 @@
           <p>NEWパルクール
           </p>
         </div>
-        <img src="https://raw.githubusercontent.com/ryo19861210/asiaparkour/main/newpk.webp" alt="newpk">
+        <img src="/img/newpk.webp" alt="newpk">
 
         <div class="new_pk">
           <div class="new_pk__left">
@@ -160,7 +162,7 @@
 
   <footer id="footer">
     <div class="footer-inner">
-      <p><a href="#">HOME</a></p>
+      <div class="footer-inner__nav">
       <a href="#about">
         <p>私たちについて</p>
       </a>
@@ -180,11 +182,22 @@
         </a>
       </p>
     </div>
+    <div class="footer-inner__logo">
+      <a href="#">
+        <img src="/img/apa_logo.png" alt="logo">
+      </a>
+    </div>
+    </div>
+    <div class="copy">
+      <p>
+        &copy;2023 Asia Parkour Association
+      </p>
+    </div>
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.0/vegas.min.js"></script>
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
